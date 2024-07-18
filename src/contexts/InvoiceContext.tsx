@@ -58,6 +58,7 @@ export const InvoiceProvider: React.FC<{ children: React.ReactNode }> = ({
       setLoading(false);
     } catch (error: any) {
       if (error.response && error.response.status === 401) {
+        console.log( error.response.status)
         handleUnathorised();
       }
       setLoading(false);
