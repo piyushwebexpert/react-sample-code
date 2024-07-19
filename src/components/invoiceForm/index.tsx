@@ -173,7 +173,7 @@ function InvoiceForm({
     resetForm();
     onClose();
   };
-console.log("object")
+
   return (
     <Box className="new-invoice-wrapper" sx={{ position: "relative" }}>
       <Typography variant="h5" component="h5" sx={{ mb: 3 }}>
