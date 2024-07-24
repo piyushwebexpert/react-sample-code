@@ -51,7 +51,7 @@ function Dashboard() {
   };
 
   const [age, setAge] = React.useState("");
-console.log("object")
+
   const handleChange = (event: any) => {
     setAge(event.target.value);
   };
