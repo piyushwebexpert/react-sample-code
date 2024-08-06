@@ -10,7 +10,7 @@ import { useAuth } from "../../contexts/AuthContext";
 function SideBar() {
 
   const { userData, logout } = useAuth();
-
+onsole.log("object")
   return (
     <Box className="sidebar-wrapper">
       <Box className="brandLogo">
