@@ -40,6 +40,7 @@ function InvoiceList({
   };
 console.log("object")
 console.log("object")
+console.log("object")
 
   const handleClose = () => {
     setOpen(false);
