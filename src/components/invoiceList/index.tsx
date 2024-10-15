@@ -38,8 +38,6 @@ function InvoiceList({
   const handleClickOpen = () => {
     setOpen(true);
   };
-console.log("object")
-console.log("object")
 
 console.log("object")
 console.log("object")
